@@ -472,6 +472,10 @@ section {
         text-align: left;
     }
 
+    #hero .hero-text ul li {
+        padding: 5px 0;
+    }
+
     #hero .btn-get-started {
         font-family: "Lato", sans-serif;
         font-weight: 400;
