@@ -211,3 +211,18 @@
     });
 
 })()
+
+function SendConfirmationMessage() {
+    Swal.fire(
+        'Good job!',
+        'Your data has been sent successfully!',
+        'success'
+    ).then((result) => {
+        if (result.isConfirmed) {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("myMessage").value = "";
+        }
+    })
+};
