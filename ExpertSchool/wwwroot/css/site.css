@@ -159,11 +159,11 @@ section {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #455a64;
+    background: #2d6760;
 }
 
     #header.header-scrolled {
-        background: #455a64;
+        background: #1d443f;
         height: 60px;
     }
 
@@ -426,7 +426,7 @@ section {
 
     #hero:before {
         content: "";
-        background: rgba(112, 185, 176, 0.85);
+        background: rgba(112, 185, 176, 0.4);
         position: absolute;
         bottom: 0;
         top: 0;
