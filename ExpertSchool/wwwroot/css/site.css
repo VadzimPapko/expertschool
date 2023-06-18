@@ -463,6 +463,10 @@ section {
         font-weight: 300;
     }
 
+    #hero .hero-text {
+        font-size: 24px;
+    }
+
     #hero .btn-get-started {
         font-family: "Lato", sans-serif;
         font-weight: 400;
