@@ -159,11 +159,11 @@ section {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #2d6760;
+    background: #455a64;
 }
 
     #header.header-scrolled {
-        background: #1d443f;
+        background: #455a64;
         height: 60px;
     }
 
@@ -470,6 +470,10 @@ section {
 
     #hero .hero-text ul {
         text-align: left;
+    }
+
+    #hero .hero-text ul li {
+        padding: 5px 0;
     }
 
     #hero .btn-get-started {
@@ -1040,7 +1044,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: #073839;
+    background: #455a64;
     padding: 30px 0;
     color: #fff;
     font-size: 14px;
