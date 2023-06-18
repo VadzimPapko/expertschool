@@ -464,7 +464,12 @@ section {
     }
 
     #hero .hero-text {
-        font-size: 24px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #hero .hero-text ul {
+        text-align: left;
     }
 
     #hero .btn-get-started {
